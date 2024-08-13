@@ -52,16 +52,17 @@ input[type="email"]:focus {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #007BFF; /* Новый цвет фона */
     color: white;
     padding: 10px;
-    border: none;
+    border: 2px solid #0056b3; /* Граница кнопки */
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0056b3; /* Новый цвет фона при наведении */
+    border-color: #004080; /* Новый цвет границы при наведении */
 }
